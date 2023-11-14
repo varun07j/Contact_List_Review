@@ -73,7 +73,7 @@ namespace HRWebsite
                 using (SqlCommand myCom = new SqlCommand("dbo.usp_InsContact", myCon))
                 {
                     myCom.CommandType = CommandType.StoredProcedure;
-                    myCom.Parameters.Add("@UserID", SqlDbType.VarChar).Value = 1;
+                    myCom.Parameters.Add("@UserID", SqlDbType.VarChar).Value = Request.Cookies["SharedUserID"].Value;
                     myCom.Parameters.Add("@ContactFirstName", SqlDbType.VarChar).Value = txtContactFirstName.Text;
                     myCom.Parameters.Add("@ContactLasttName", SqlDbType.VarChar).Value = txtContactLastName.Text;
                     myCom.Parameters.Add("@Email", SqlDbType.VarChar).Value = txtEmail.Text;
