@@ -1,0 +1,16 @@
+.p_text
+{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h2_text
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main_div{
+    margin-left: 350px; border: 2px solid black; width: 50%;
+}
+.normal_text
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
