@@ -46,7 +46,7 @@ bash
 
 Copy code
 
-git clone https://github.com/varun07j/Contact_List.git
+git clone https://github.com/varun07j/Contact_List_Review.git
 
 Open the project in Visual Studio.
 
